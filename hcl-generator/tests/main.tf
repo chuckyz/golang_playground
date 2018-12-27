@@ -1,7 +1,6 @@
 # Big ol comment
 locals {
   instance_tags = {
-    managed-by   = "quartzy/tf-modules/apps/airship"
     env          = "${var.vpc_name}"
     resourceType = "airship"
   }
